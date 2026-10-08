@@ -92,3 +92,40 @@ img {
     box-shadow: 0 5px 15px rgb(236, 4, 147);
     width: 15%;
 }
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+    background: linear-gradient(
+        90deg,
+        #5c0000,
+        #a00000,
+        #5c0000
+    );
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.navbar li {
+    width: 25%;
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.navbar li a:hover {
+    background-color: #c00000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+}
