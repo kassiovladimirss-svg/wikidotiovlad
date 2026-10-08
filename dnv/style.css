@@ -1,0 +1,94 @@
+    body {
+        background: 
+        linear-gradient(
+            rgba(10, 29, 66, 0.75),
+            rgb(30, 30, 32)
+        ),
+        url("bluelock.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .fotoB:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    .fotoA:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+    
+    .fotoC:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    .fotoD:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    .fotoE:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    .fotoEGO:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+.fotoSub:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+img {
+    border: 3px solid rgb(6, 134, 219);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(5, 148, 231);
+    width: 15%;
+}
+.fotoA {
+     border: 3px solid rgb(13, 220, 235);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(1, 209, 236);
+    width: 15%;
+}
+
+.fotoE {
+     border: 3px solid rgb(228, 13, 228);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(190, 3, 236);
+    width: 15%;
+}
+
+.fotoC {
+     border: 3px solid rgb(1, 245, 152);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(3, 236, 42);
+    width: 15%;
+}
+
+.fotoD {
+     border: 3px solid rgb(230, 9, 9);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(250, 1, 1);
+    width: 15%;
+}
+
+.fotoEGO {
+     border: 3px solid rgb(4, 99, 241);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(75, 4, 141);
+    width: 15%;
+}
+
+.fotoSub {
+     border: 3px solid rgb(4, 142, 255);
+    border-radius: 25px;
+    box-shadow: 0 5px 15px rgb(236, 4, 147);
+    width: 15%;
+}
